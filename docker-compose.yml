@@ -1,9 +1,0 @@
-services:
-  coco-downloader:
-    image: Moonvee/little_yard_music:latest
-    container_name: little_yard_music
-    restart: unless-stopped
-    environment:
-      - PORT=${PORT:-3000}
-    ports:
-      - "${PORT:-3000}:${PORT:-3000}"
