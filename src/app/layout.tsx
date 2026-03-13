@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "小院音乐",
+  title: "小院音乐 | 老耿小院",
   description: "简约纯净的音乐下载工具",
   icons: {
     icon: "/logo.svg",
